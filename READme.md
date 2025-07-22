@@ -30,7 +30,7 @@ This project demonstrates **DOM manipulation, event-driven programming, and mult
 ## 🚀 **Live Demo**
 
 **[Play the Game Here](https://yourusername.github.io/Treasure-Island-Adventure/)**  
-*(Replace `yourusername` with your GitHub username after deployment)*
+*()*
 
 ---
 
