@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🏝️ Treasure Island Adventure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" src="assets/background-music.mp3" loop autoplay></audio>
+  <div class="scroll-bg">
+    <div class="game-container">
+      <h1>🏴‍☠️ Treasure Island Adventure</h1>
+      <pre class="ascii-art">
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+*******************************************************************************
+      </pre>
+      <div id="hud">
+        <span id="health">❤️ Health: 3</span> | 
+        <span id="score">💰 Score: 0</span> | 
+        <button id="tipBtn">💡 Get Tip</button>
+      </div>
+      <progress id="progress" value="0" max="5"></progress>
+      <div id="story"></div>
+      <div id="choices"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
